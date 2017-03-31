@@ -1,14 +1,18 @@
 <img src="http://montanacodeschool.com/wp-content/uploads/2016/08/MCS_LOGO_v1-1.png" width="200" align="right"/>
 
-##JavaScript Basics
+## JavaScript Basics
+_____________________
 
-##Purpose
+#### Purpose
 The purpose of this day project is to familiarize yourself with the basic manipulation methods for both arrays and objects. You will also practice creating variables and functions using logic and the content provided during class.
 
-##Directions
+#### Directions
+
 Fork and clone this repository. Complete all of the exercises in the basics.js file. When you have finished, push your code into GitHub.
 
-##Testing
+Your tests are in the tests folder under test.js, it can sometimes help to examine the actual test file to see what is happening.  Try not to do any editing in here. :koala:
+
+#### Testing
 
 To run the tests you must install mocha, a testing program, and use npm to install dependencies. In your terminal cd to the project directory. Then do the following.
 
@@ -28,8 +32,8 @@ now you can run the tests by typing
 ```
 mocha
 ```
-in the project directory. If you have correctly completed each of the exercises, they will pop up as green with a checkmark. Otherwise, you will have red x's.
+In the project directory. If you have correctly completed each of the exercises, they will pop up as green with a checkmark. Otherwise, you will have red x's.
 
-##Copyright
+#### Copyright
 
 (c) Montana Code School, 2016.

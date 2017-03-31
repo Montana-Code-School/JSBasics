@@ -9,6 +9,9 @@ var arr, findTwo, pusher, upFront, remover, copyCat, chopIt, sumIt, evenOdd,
 // 1. Create the variable arr and assign it an array with the following list of
 // numbers 12, 42, 36, 51, 96
 
+// For the following tests, the testing suite will pass in an array, you don't
+// need to create your own array
+ 
 // 2. Create a function called findTwo that takes in the arr array and returns
 // the value at index 2.
 
