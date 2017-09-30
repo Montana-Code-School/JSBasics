@@ -12,4 +12,4 @@ var animals = [
 var sortByName;
 
 // DO NOT DELETE
-module.exports = sortByName;
+module.exports = sortedAnimals;
