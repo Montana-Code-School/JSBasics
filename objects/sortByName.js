@@ -9,7 +9,7 @@ var animals = [
    { species: 'Bird', name: 'Twiti', age: 7, gender: 'male', favoriteFood: 'Seeds'},
  ];
 
-var sortByName;
+var sortedAnimals;
 
 // DO NOT DELETE
 module.exports = sortedAnimals;
