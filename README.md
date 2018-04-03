@@ -58,6 +58,9 @@ If you have correctly completed the exercise, it will pop up as green with a che
 13. Reverse string - reverseString.js
 14. Remove duplicates - removeDuplicates.js
 
+### Strings
+1. Is Unique - isUnique.js
+
 ### Objects
 
 1. Create an object animal - animal.js
