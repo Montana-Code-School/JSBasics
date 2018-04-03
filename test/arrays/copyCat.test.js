@@ -3,7 +3,7 @@ var copyCat = require('../../arrays/copyCat.js') ;
 
 var expect = chai.expect;
 
-describe('Array Exercise 6 - copyCat()', function () {
+xdescribe('Array Exercise - copyCat()', function () {
   it('should copy the 2nd and 3rd index', function () {
     var arr = [1, 2, 3, 4]
     var copycatArray = copyCat(arr)

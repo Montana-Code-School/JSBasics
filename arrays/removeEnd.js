@@ -3,11 +3,5 @@
 
 var removeEnd;
 
-removeEnd = function(arr, num) {
-  arr.pop(num);
-
-  return arr;
-}
-
 // DO NOT DELETE
 module.exports = removeEnd;

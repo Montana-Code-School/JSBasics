@@ -3,7 +3,7 @@ var addFront = require('../../arrays/addFront.js') ;
 
 var expect = chai.expect;
 
-describe('Array Exercise - addFront()', function () {
+xdescribe('Array Exercise - addFront()', function () {
   it('should add a number to the beginning of an array', function () {
     var arr = [1, 2, 3]
     var upFrontArray = addFront(arr, 4)
