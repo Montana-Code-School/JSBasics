@@ -3,7 +3,7 @@ var isUnique = require('../../strings/isUnique.js') ;
 
 var expect = chai.expect;
 
-describe('String Exercise - isUnique()', () => {
+xdescribe('String Exercise - isUnique()', () => {
   it('returns true if string is all unique characters', () => {
     let str = "abcdefghijklmnopqrstuvyxz";
     expect(isUnique(str)).to.be.true;
