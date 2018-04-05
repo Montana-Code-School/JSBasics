@@ -5,7 +5,6 @@ var expect = chai.expect;
 
 describe('Recursion Exercise - fibonacci()', () => {
   it('should return fibonaccis number at nth position', () => {
-    expect(fibonacci(0)).to.eql(1);
     expect(fibonacci(1)).to.eql(1);
     expect(fibonacci(2)).to.eql(1);
     expect(fibonacci(3)).to.eql(2);
