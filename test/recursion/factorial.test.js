@@ -3,7 +3,7 @@ var factorial = require('../../recursion/factorial.js');
 
 var expect = chai.expect;
 
-xdescribe('Recursion Exercise - factorial()', () => {
+describe('Recursion Exercise - factorial()', () => {
   it('should return factorials', () => {
     expect(factorial(1)).to.eql(1);
     expect(factorial(2)).to.eql(2);
