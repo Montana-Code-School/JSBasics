@@ -15,15 +15,31 @@ npm install
 ```
 and when that is finished you can run
 ```
-npm run "test arrays"
-npm run "test objects"
+npm test
 ```
 
-and so on to run the test for the different exercise topics
+to run the test for the different exercise topics
 
-If you have correctly completed each of the exercises, they will pop up as green with a checkmark. Otherwise, you will have red x's.
+All test are set to pending initially. To enable a test for a specific exercise either change
 
-## Order Of exercises
+~~~
+xdescribe()
+~~~
+to
+~~~
+describe()
+~~~
+OR to
+~~~
+describe.only()
+~~~
+in the corresponding .test.js file. The former will still show all test, but enable that one, while the latter will only show that one as enabled.
+
+
+
+If you have correctly completed the exercise, it will pop up as green with a checkmark. Otherwise, you will have red x's.
+
+## Order Of Exercises
 
 ### Arrays
 
@@ -38,6 +54,32 @@ If you have correctly completed each of the exercises, they will pop up as green
 9. Even & odd values - evenOdd.js
 10. Sum values - sumIt.js
 11. Multiply by 10 - timesTen.js
+12. Count string - countString.js
+13. Reverse string - reverseString.js
+14. Remove duplicates - removeDuplicates.js
+
+### Strings
+1. Is Unique - isUnique.js
+
+### Objects
+
+1. Create an object animal - animal.js
+2. Return age - findAge.js
+3. Get all keys - getKeys.js
+4. Change value for key name - changeName.js
+5. Function to make a noise - makeNoise.js
+6. Add a key - addKey.js
+7. Loop over keys - keyLoop.js
+8. Multiple animals - moreAnimals.js
+9. Find species - findSpecies.js
+10. Sort by name - sortByName.js
+
+### Recursion
+1. Calculate the factorial for given number - factorial.js
+2. Calculate nth Fibonacci number - fibonnaci.js
+
+### Sorting
+1. Implement Bubble Sort - bubbleSort.js
 
 ##Copyright
 

@@ -3,11 +3,5 @@
 
 var addFront;
 
-addFront = function(arr, num) {
-  arr.unshift(num);
-
-  return arr;
-}
-
 // DO NOT DELETE
 module.exports = addFront;

@@ -3,7 +3,7 @@ var addEnd = require('../../arrays/addEnd.js') ;
 
 var expect = chai.expect;
 
-describe('Array Exercise - addEnd()', function () {
+xdescribe('Array Exercise - addEnd()', function () {
   it('should add a number to the end of an array', function () {
     var arr = [1, 2, 3]
     var pushedArray = addEnd(arr, 4)

@@ -4,8 +4,7 @@
   "description": "Introduction to basic Javascript Functions",
   "main": "basics.js",
   "scripts": {
-    "test arrays": "mocha test/arrays/.",
-    "test createArray": "mocha arrays/tests/createArray.test"
+    "test": "mocha test/**/*.test.js"
   },
   "repository": {
     "type": "git",
