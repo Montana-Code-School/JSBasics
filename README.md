@@ -74,6 +74,13 @@ If you have correctly completed the exercise, it will pop up as green with a che
 9. Find species - findSpecies.js
 10. Sort by name - sortByName.js
 
+### Recursion
+1. Calculate the factorial for given number - factorial.js
+2. Calculate nth Fibonacci number - fibonnaci.js
+
+### Sorting
+1. Implement Bubble Sort - bubbleSort.js
+
 ##Copyright
 
 (c) Montana Code School, 2016.
