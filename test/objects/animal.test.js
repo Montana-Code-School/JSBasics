@@ -12,6 +12,6 @@ xdescribe('Object Exercise  - Animal', function () {
     expect(animal.favoriteFood).to.not.eql(undefined)
   })
   it('Should have a speech method that returns a string', function () {
-    expect(animal.speech()).to.be.a('string')
+    expect(animal.speach()).to.be.a('string')
   })
 })

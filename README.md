@@ -58,6 +58,9 @@ If you have correctly completed the exercise, it will pop up as green with a che
 13. Reverse string - reverseString.js
 14. Remove duplicates - removeDuplicates.js
 
+### Strings
+1. Is Unique - isUnique.js
+
 ### Objects
 
 1. Create an object animal - animal.js
@@ -71,6 +74,12 @@ If you have correctly completed the exercise, it will pop up as green with a che
 9. Find species - findSpecies.js
 10. Sort by name - sortByName.js
 
-## Copyright
+### Recursion
+1. Calculate the factorial for given number - factorial.js
+2. Calculate nth Fibonacci number - fibonnaci.js
 
+### Sorting
+1. Implement Bubble Sort - bubbleSort.js
+
+## Copyright
 &copy; Montana Code School, 2016.
