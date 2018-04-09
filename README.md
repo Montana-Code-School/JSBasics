@@ -81,6 +81,5 @@ If you have correctly completed the exercise, it will pop up as green with a che
 ### Sorting
 1. Implement Bubble Sort - bubbleSort.js
 
-##Copyright
-
-(c) Montana Code School, 2016.
+## Copyright
+&copy; Montana Code School, 2016.
