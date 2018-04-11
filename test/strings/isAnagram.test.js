@@ -12,7 +12,7 @@ describe('String Exercise - isAnagram()', () => {
 
   it('returns false if strings are no anagrams', () => {
     let str1 = "aab";
-    let str2 = "baa";
+    let str2 = "bba";
     expect(isAnagram(str1, str2)).to.be.false;
 
   });
