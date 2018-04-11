@@ -59,7 +59,8 @@ If you have correctly completed the exercise, it will pop up as green with a che
 14. Remove duplicates - removeDuplicates.js
 
 ### Strings
-1. Is Unique - isUnique.js
+1. Check if string has no duplicate characters - isUnique.js
+2. Check if two strings are anagrams - isAnagram.js
 
 ### Objects
 
