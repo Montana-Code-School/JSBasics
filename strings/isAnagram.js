@@ -26,5 +26,32 @@ let isAnagram = (str1, str2) => {
 	return (sortStr1 === sortStr2);
 };
 
+/*
+ * Approach 2: O(N); where N is the length of the string
+ */
+isAnagram = (str1, str2) => {
+
+	// Strings of different lengths can not be permutations of each other
+	if (str1.length !== str2.length) {
+		return false;
+	}
+
+	// Create a character count for the string
+  let str1Count = {};
+  Array.prototype.forEach.call(str1, ch => {
+    str1Count[ch] = str1Count[ch] ? 1 + str1Count[ch] : 1;
+  });
+
+  // compare the character count with the second string
+  for (let i = 0; i < str2.length; i++) {
+    if( !str1Count[str2[i]] ) {
+      return false;
+    } else {
+      str1Count[str2[i]] -= 1;
+    }
+  }
+  return true;
+};
+
 // DO NOT DELETE
 module.exports = isAnagram;
