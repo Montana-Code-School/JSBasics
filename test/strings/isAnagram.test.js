@@ -3,7 +3,7 @@ var isAnagram = require('../../strings/isAnagram.js') ;
 
 var expect = chai.expect;
 
-describe('String Exercise - isAnagram()', () => {
+xdescribe('String Exercise - isAnagram()', () => {
   it('returns true if strings are anagrams', () => {
     let str1 = "ant";
     let str2 = "tan";
