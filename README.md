@@ -59,7 +59,10 @@ If you have correctly completed the exercise, it will pop up as green with a che
 14. Remove duplicates - removeDuplicates.js
 
 ### Strings
-1. Is Unique - isUnique.js
+1. Check if string has no duplicate characters - isUnique.js
+2. Check if two strings are anagrams - isAnagram.js
+3. Create URL string - urlify.js
+3. Check if string is a palindrome - isPalindrome.js
 
 ### Objects
 
@@ -81,6 +84,5 @@ If you have correctly completed the exercise, it will pop up as green with a che
 ### Sorting
 1. Implement Bubble Sort - bubbleSort.js
 
-##Copyright
-
-(c) Montana Code School, 2016.
+## Copyright
+&copy; Montana Code School, 2016.
