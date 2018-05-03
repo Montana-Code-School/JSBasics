@@ -62,7 +62,8 @@ If you have correctly completed the exercise, it will pop up as green with a che
 1. Check if string has no duplicate characters - isUnique.js
 2. Check if two strings are anagrams - isAnagram.js
 3. Create URL string - urlify.js
-3. Check if string is a palindrome - isPalindrome.js
+4. Check if string is a palindrome - isPalindrome.js
+5. Check if two strings are one edit away from each other - isOneEditAway.js
 
 ### Objects
 
