@@ -3,7 +3,7 @@ var isOneEditAway = require('../../strings/isOneEditAway.js') ;
 
 var expect = chai.expect;
 
-describe.only('String Exercise - isOneEditAway()', () => {
+xdescribe('String Exercise - isOneEditAway()', () => {
   
   it('returns false if first string is empty', () => {
     let str1 = "";
@@ -38,13 +38,13 @@ describe.only('String Exercise - isOneEditAway()', () => {
   it('returns false if second string is more than one edit away', () => {
     let str1 = "pale";
     let str2 = "bake";
-    expect(isOneEditAway(str1, str2)).to.be.true;
+    expect(isOneEditAway(str1, str2)).to.be.false;
   });
   
   it('returns false if second string is more than one edit away', () => {
     let str1 = "ab";
     let str2 = "ace";
-    expect(isOneEditAway(str1, str2)).to.be.true;
+    expect(isOneEditAway(str1, str2)).to.be.false;
   });
 
 })
