@@ -31,7 +31,7 @@ let isPalindrome = (str) => {
 };
 
 // Solution 2 with FOR loop
-let isPalindrome = (str) => {
+let isPalindrome2 = (str) => {
 
 	// Step 1. The same as in solution 1
 	let re = /[\W_]/g; // or var re = /[^A-Za-z0-9]/g;
