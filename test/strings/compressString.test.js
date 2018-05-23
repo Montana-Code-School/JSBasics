@@ -18,7 +18,7 @@ xdescribe('String Exercise - compressString()', () => {
   });
   it('returns compressed string', () => {
     let str = 'aabcccccaaa';
-    expect(compressString(str)).to.eql('a2blc5a3');
+    expect(compressString(str)).to.eql('a2b1c5a3');
   });
 
 })
