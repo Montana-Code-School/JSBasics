@@ -65,6 +65,7 @@ If you have correctly completed the exercise, it will pop up as green with a che
 4. Check if string is a palindrome - isPalindrome.js
 5. Check if two strings are one edit away from each other - isOneEditAway.js
 6. Create simple string compression - compressString.js
+7. Rotate matrix by 90 degrees - rotateMatrix.js
 
 ### Objects
 
