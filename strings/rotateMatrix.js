@@ -15,7 +15,27 @@
  */ 
 
 let rotateMatrix = (matrix) => {
+	/*
+	 * Reverse rows
+	 * [c,d]
+	 * [a,b]
+	 */
+	let rotatedMatrix = matrix.reverse();
 	
+	/*
+	 * Swap the symmetric elements
+	 * [c,a]
+	 * [d,b]
+	 */ 
+	for (let i = 0; i < rotatedMatrix.length; i++) {
+		for (let j = 0; j < i; j++) {
+			let temp = rotatedMatrix[i][j];
+			rotatedMatrix[i][j] = rotatedMatrix[j][i];
+			rotatedMatrix[j][i] = temp;
+		}
+	}
+	
+	return rotatedMatrix;
 };
 
 // DO NOT DELETE
