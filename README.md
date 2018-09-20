@@ -1,9 +1,11 @@
 ## JavaScript Basics
 
 ## Purpose
+
 The purpose of this day project is to familiarize yourself with the basic manipulation methods for both arrays and objects. You will also practice creating variables and functions using logic and the content provided during class.
 
 ## Directions
+
 Fork and clone this repository. Complete all of the exercises in the different folders (arrays, objects,...) file. When you have finished exercises, push your code to GitHub.
 
 ## Testing
@@ -13,7 +15,9 @@ To run the tests you must install mocha, a testing program, and use npm to insta
 ```
 npm install
 ```
+
 and when that is finished you can run
+
 ```
 npm test
 ```
@@ -22,20 +26,23 @@ to run the test for the different exercise topics
 
 All test are set to pending initially. To enable a test for a specific exercise either change
 
-~~~
+```
 xdescribe()
-~~~
+```
+
 to
-~~~
+
+```
 describe()
-~~~
+```
+
 OR to
-~~~
+
+```
 describe.only()
-~~~
+```
+
 in the corresponding .test.js file. The former will still show all test, but enable that one, while the latter will only show that one as enabled.
-
-
 
 If you have correctly completed the exercise, it will pop up as green with a checkmark. Otherwise, you will have red x's.
 
@@ -54,18 +61,19 @@ If you have correctly completed the exercise, it will pop up as green with a che
 9. Even & odd values - evenOdd.js
 10. Sum values - sumIt.js
 11. Multiply by 10 - timesTen.js
-12. Count string - countString.js
-13. Reverse string - reverseString.js
-14. Remove duplicates - removeDuplicates.js
+12. Remove duplicates - removeDuplicates.js
 
 ### Strings
-1. Check if string has no duplicate characters - isUnique.js
-2. Check if two strings are anagrams - isAnagram.js
-3. Create URL string - urlify.js
-4. Check if string is a palindrome - isPalindrome.js
-5. Check if two strings are one edit away from each other - isOneEditAway.js
-6. Create simple string compression - compressString.js
-7. Rotate matrix by 90 degrees - rotateMatrix.js
+
+1. Count string - countString.js
+2. Reverse string - reverseString.js
+3. Check if string has no duplicate characters - isUnique.js
+4. Check if two strings are anagrams - isAnagram.js
+5. Create URL string - urlify.js
+6. Check if string is a palindrome - isPalindrome.js
+7. Check if two strings are one edit away from each other - isOneEditAway.js
+8. Create simple string compression - compressString.js
+9. Rotate matrix by 90 degrees - rotateMatrix.js
 
 ### Objects
 
@@ -81,11 +89,14 @@ If you have correctly completed the exercise, it will pop up as green with a che
 10. Sort by name - sortByName.js
 
 ### Recursion
+
 1. Calculate the factorial for given number - factorial.js
 2. Calculate nth Fibonacci number - fibonnaci.js
 
 ### Sorting
+
 1. Implement Bubble Sort - bubbleSort.js
 
 ## Copyright
+
 &copy; Montana Code School, 2016.
