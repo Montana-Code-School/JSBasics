@@ -4,7 +4,7 @@ var reverseString = require("../../strings/reverseString.js");
 var expect = chai.expect;
 var assert = chai.assert;
 
-describe("Array Exercise - reverseString()", function() {
+xdescribe("Array Exercise - reverseString()", function() {
   it("returns a string", function() {
     var val = reverseString("bacon");
     assert.typeOf(val, "string");
