@@ -9,7 +9,7 @@ copyCat = function(arr) {
   newArr.push(arr[3]);
 
   return newArr;
-}
+};
 
 // DO NOT DELETE
 module.exports = copyCat;

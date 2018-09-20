@@ -3,13 +3,14 @@
 // Hint: Use the map method
 
 var timesTen = function(arr) {
-  var arr10 = arr.map((num) => {
-    return num * 10;
+  var arr10 = [];
 
-  })
+  for (var i = 0; i < arr.length; i++) {
+    arr10[i] = arr[i] * 10;
+  }
+
   return arr10;
-
-}
+};
 
 // DO NOT DELETE
 module.exports = timesTen;

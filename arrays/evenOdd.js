@@ -5,18 +5,17 @@
 
 var evenOdd = function(arr) {
   var eoArr = [];
-  arr.forEach((num) => {
-    if(num % 2 === 0) {
-      eoArr.push('even');
-    } else {
-      eoArr.push('odd');
-    }
 
-  })
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      eoArr.push("even");
+    } else {
+      eoArr.push("odd");
+    }
+  }
 
   return eoArr;
-
-}
+};
 
 // DO NOT DELETE
 module.exports = evenOdd;
