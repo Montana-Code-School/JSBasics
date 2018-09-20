@@ -3,7 +3,7 @@ var removeFront = require('../../arrays/removeFront.js') ;
 
 var expect = chai.expect;
 
-xdescribe('Array Exercise - removeFront()', function () {
+describe('Array Exercise - removeFront()', function () {
   it('should remove a number from the beginning of an array', function () {
     var arr = [1, 2, 3]
     var removedArray = removeFront(arr)

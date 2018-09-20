@@ -7,7 +7,6 @@
     }
   },
   "rules": {
-    "indent": ["error", 2],
-    "semi": [1, "always"]
+    "indent": ["error", 2]
   }
 }

@@ -3,7 +3,16 @@
 // whether they are even or odd number values. Return the new array.
 // Hint: Use the modulus operator
 
-var evenOdd;
+var evenOdd = (arr) => {
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      arr[i] = "even"
+    } else {
+      arr[i] = "odd"
+    }
+  }
+  return arr
+} ;
 
 // DO NOT DELETE
 module.exports = evenOdd;

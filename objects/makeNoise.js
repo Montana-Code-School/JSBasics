@@ -2,7 +2,9 @@
 // the response from calling the noise method.
 
 var animal;
-var makeNoise;
+var makeNoise = (obj) => {
+  return obj.noise()
+};
 
 // DO NOT DELETE
 module.exports = makeNoise;

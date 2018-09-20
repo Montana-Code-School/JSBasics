@@ -3,7 +3,7 @@ var arr = require('../../arrays/createArray.js') ;
 
 var expect = chai.expect;
 
-xdescribe('Create an array with following numbers 12, 42, 36, 51, 96', function () {
+describe('Create an array with following numbers 12, 42, 36, 51, 96', function () {
   it('should be an array of length 5', function () {
     expect(arr.length).to.eql(5)
   })

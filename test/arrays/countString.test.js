@@ -3,7 +3,7 @@ var countString = require('../../arrays/countString.js');
 
 var expect = chai.expect;
 
-xdescribe("Array Exercise - countString()", function () {
+describe("Array Exercise - countString()", function () {
   it('Will give us a number', function () {
     var val = countString("Ummm", 'm');
     expect(val).to.be.a('number');

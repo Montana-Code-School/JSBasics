@@ -3,7 +3,7 @@ var fibonacci = require('../../recursion/fibonacci.js');
 
 var expect = chai.expect;
 
-xdescribe('Recursion Exercise - fibonacci()', () => {
+describe('Recursion Exercise - fibonacci()', () => {
   it('should return fibonaccis number at nth position', () => {
     expect(fibonacci(1)).to.eql(1);
     expect(fibonacci(2)).to.eql(1);

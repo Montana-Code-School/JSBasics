@@ -3,7 +3,7 @@ var getKeys = require('../../objects/getKeys.js') ;
 
 var expect = chai.expect;
 
-xdescribe('Object Exercise - getKeys()', function () {
+describe('Object Exercise - getKeys()', function () {
     it('should return an array of all of the keys', function () {
       var animal = {
         species: 'primate',

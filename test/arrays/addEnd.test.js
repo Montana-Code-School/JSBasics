@@ -1,9 +1,9 @@
 const chai = require('chai');
-var addEnd = require('../../arrays/addEnd.js') ;
+var addEnd = require('../../arrays/addEnd.js');
 
 var expect = chai.expect;
 
-xdescribe('Array Exercise - addEnd()', function () {
+describe('Array Exercise - addEnd()', function () {
   it('should add a number to the end of an array', function () {
     var arr = [1, 2, 3]
     var pushedArray = addEnd(arr, 4)

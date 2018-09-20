@@ -3,7 +3,7 @@ var keyLoop = require('../../objects/keyLoop.js') ;
 
 var expect = chai.expect;
 
-xdescribe('Object Exercise 7 - keyLoop', function () {
+describe('Object Exercise 7 - keyLoop', function () {
   it("should report if there's a monkey key in the object", function () {
     var obj = { animal: "monkey" }
     expect(keyLoop(obj)).to.eql("There's a monkey!")

@@ -3,7 +3,7 @@ var moreAnimals = require('../../objects/moreAnimals.js') ;
 
 var expect = chai.expect;
 
-xdescribe('Object Arrays Exercise - More Animals', function () {
+describe('Object Arrays Exercise - More Animals', function () {
   it('should be an array of length 3', function () {
     expect(moreAnimals.length).to.eql(3)
   })

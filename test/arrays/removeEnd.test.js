@@ -3,7 +3,7 @@ var removeEnd = require('../../arrays/removeEnd.js') ;
 
 var expect = chai.expect;
 
-xdescribe('Array Exercise - removeEnd()', function () {
+describe('Array Exercise - removeEnd()', function () {
   it('should remove a number from the end of an array', function () {
     var arr = [1, 2, 3]
     var pushedArray = removeEnd(arr, 4)

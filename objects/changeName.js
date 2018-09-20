@@ -2,7 +2,10 @@
 // value and replaces the object name with the given name value. Return the new object.
 
 var animal;
-var changeName;
+var changeName = (obj, name) => {
+  obj.name = name
+  return obj
+};
 
 // DO NOT DELETE
 module.exports = changeName;

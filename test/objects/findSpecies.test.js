@@ -3,7 +3,7 @@ var findSpecies = require('../../objects/findSpecies.js') ;
 
 var expect = chai.expect;
 
-xdescribe('Object Arrays - findSpecies', function () {
+describe('Object Arrays - findSpecies', function () {
     it('should be an array of length 3', function () {
       var arr = [{
           species: "primate"

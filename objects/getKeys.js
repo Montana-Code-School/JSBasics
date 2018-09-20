@@ -2,7 +2,15 @@
 // of the key names.
 
 var animal;
-var getKeys;
+var getKeys = (ob) => {
+  let keys = []
+  for (var key in ob) {
+    if (ob.hasOwnProperty(key)) {
+      keys.push(key)
+    }
+  }
+  return keys
+};
 
 // DO NOT DELETE
 module.exports = getKeys;
