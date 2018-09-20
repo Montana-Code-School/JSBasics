@@ -3,13 +3,12 @@
 
 var sumIt = function(arr) {
   var sum = 0;
-  arr.forEach((num) => {
-    sum += num;
-  })
-  
-  return sum;
+  for (var i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
 
-}
+  return sum;
+};
 
 // DO NOT DELETE
 module.exports = sumIt;
