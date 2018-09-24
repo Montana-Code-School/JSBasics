@@ -63,6 +63,10 @@ If you have correctly completed the exercise, it will pop up as green with a che
 11. Multiply by 10 - timesTen.js
 12. Remove duplicates - removeDuplicates.js
 
+### Lists
+
+1. Print animal names - printNames.js
+
 ### Strings
 
 1. Count string - countString.js
