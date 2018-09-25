@@ -4,7 +4,7 @@ var findFemales = require("../../lists/findFemales.js");
 
 var expect = chai.expect;
 
-describe.only("List Exercise - findFemales()", function() {
+xdescribe("List Exercise - findFemales()", function() {
   it("should return all female animals", function() {
     var females = [
       {

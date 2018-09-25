@@ -4,7 +4,9 @@
  * Try to solve it without using a for loop!
  */
 
-var findFemales;
+var findFemales = animals => {
+  return animals.filter(animal => animal.gender === "female");
+};
 
 // DO NOT DELETE
 module.exports = findFemales;
