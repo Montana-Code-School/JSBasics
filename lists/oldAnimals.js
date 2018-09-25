@@ -20,7 +20,7 @@ var animals = require("./animals.js");
  */
 
 const oldAnimals = animals.filter(animal => {
-  if (true) {
+  if (animal.age > 9) {
     return true;
   } else {
     return false;
