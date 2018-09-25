@@ -14,7 +14,7 @@ var animals = require("./animals.js");
  */
 
 var elephant = animals.find(animal => {
-  if (true /* Your condition here (remove true) */) {
+  if (animal.species === "Elephant") {
     return animal;
   }
 });
