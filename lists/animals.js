@@ -18,7 +18,7 @@ var animals = [
     name: "Beauty",
     age: 3,
     gender: "female",
-    favoriteFood: "Carot"
+    favoriteFood: "Carrot"
   },
   {
     species: "Elephant",
