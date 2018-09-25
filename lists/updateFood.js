@@ -15,19 +15,7 @@
  * from the 'xit' to test your bonus solution
  */
 
-var updateFood = animals => {
-  return animals.map(animal => {
-    animal.favoriteFood = "Peanut Butter Cups";
-    return animal;
-  });
-};
-
-// BONUS
-var updateFood = animals => {
-  return animals.map(animal => {
-    return Object.assign({}, animal, { favoriteFood: "Peanut Butter Cups" });
-  });
-};
+var updateFood;
 
 // DO NOT DELETE
 module.exports = updateFood;

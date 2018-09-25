@@ -66,9 +66,10 @@ If you have correctly completed the exercise, it will pop up as green with a che
 ### Lists
 
 1. Print animal names - printNames.js
-2. Find Ophelia the Cat - findOphelia.js
-3. Find all female animals - findFemales.js
-4. Update the favorite food of the animals - updateFood.js
+2. Find Jumbo the Elephant - findElephant.js
+3. Find Ophelia the Cat - findOphelia.js
+4. Find all female animals - findFemales.js
+5. Update the favorite food of the animals - updateFood.js
 
 ### Strings
 
