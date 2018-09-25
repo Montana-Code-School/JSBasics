@@ -66,6 +66,7 @@ If you have correctly completed the exercise, it will pop up as green with a che
 ### Lists
 
 1. Print animal names - printNames.js
+2. Find Ophelia the Cat - findOphelia.js
 
 ### Strings
 
