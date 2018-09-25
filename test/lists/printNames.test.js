@@ -5,7 +5,7 @@ var printNames = require("../../lists/printNames.js");
 
 var assert = chai.assert;
 
-describe.only("List Exercise - printNames()", function() {
+xdescribe("List Exercise - printNames()", function() {
   it("should print names of all animals", function() {
     // "spy" on `console.log()`
     let spy = sinon.spy(console, "log");
