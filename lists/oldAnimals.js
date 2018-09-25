@@ -1,6 +1,7 @@
 /**
- * "Only wimps need filters. I can handle anything."
- * - Georgie Kirschner
+ * He's terrible at directions. He once drove us to the wrong state
+ * because he was following his 'instincts.'
+ * - Mark Buckner
  */
 
 var animals = require("./animals.js");
