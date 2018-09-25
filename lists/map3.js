@@ -1,8 +1,6 @@
-var animals = require("./animals.js");
 
-// He's terrible at directions. He once drove us to the wrong state
-// because he was following his 'instincts.'
-// - Mark
+
+var animals = require("./animals.js");
 
 const likesCostumes = [
   {
