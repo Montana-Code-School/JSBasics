@@ -1,5 +1,5 @@
-/* Write a function printNames that prints the names of all animals 
- * in the array of objects in the animal.js file.
+/* Review the animals.js file in this folder and the array of animal objects in it.
+ * Write a function printNames that prints the names of all animals.
  * Try to come up with different variations of your function!
  */
 
