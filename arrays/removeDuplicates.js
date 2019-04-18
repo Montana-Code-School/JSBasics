@@ -3,13 +3,11 @@
 var removeDuplicates = function(arr) {
   var unique = [];
   for (var i = 0; i < arr.length; i++) {
-    if (unique.indexOf(arr[i]) > -1) {
-      arr.splice(i, 1);
-    } else {
+    if (unique.indexOf(arr[i]) === -1) {
       unique.push(arr[i]);
     }
   }
-  return arr;
+  return unique;
 };
 
 // DO NOT DELETE
